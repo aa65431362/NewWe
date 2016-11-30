@@ -23,6 +23,7 @@ import team.newwe.holmes.holmeslibrary.R;
 
 /**
  * Created by yaochen on 2016/11/29.
+ * 圆形头像
  */
 
 public class CircleImageView extends ImageView {

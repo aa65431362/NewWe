@@ -22,6 +22,7 @@
         </activity>
 
         <activity android:name="activity.CircleImageViewActivity"></activity>
+        <activity android:name="activity.DragPointActivity"></activity>
     </application>
 
 </manifest>

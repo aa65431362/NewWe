@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">HolmesDemo</string>
     <string name="circleImageView">CircleImageView</string>
+    <string name="dragPoint">DragPoint</string>
 </resources>

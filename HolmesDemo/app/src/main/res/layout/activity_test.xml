@@ -9,10 +9,18 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/circleImageView"
+            android:id="@+id/btn_circleImageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/circleImageView"/>
+            android:text="@string/circleImageView"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_dragpoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dragPoint"
+            android:textAllCaps="false"/>
 
     </LinearLayout>
 </ScrollView>
