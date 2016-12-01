@@ -13,7 +13,7 @@ import team.newwe.holmes.holmesdemo.R;
 
 public class TestActivity extends BaseActivity implements View.OnClickListener {
 
-    private Button circleImgViewBtn, dragPointBtn;
+    private Button circleImgViewBtn, dragPointBtn, elevatorBtn;
 
     @Override
     protected int getContentLayout() {
@@ -24,12 +24,14 @@ public class TestActivity extends BaseActivity implements View.OnClickListener {
     protected void initGui() {
         circleImgViewBtn = (Button) findViewById(R.id.btn_circleImageView);
         dragPointBtn = (Button) findViewById(R.id.btn_dragpoint);
+        elevatorBtn = (Button) findViewById(R.id.btn_elevator);
     }
 
     @Override
     protected void initAction() {
         circleImgViewBtn.setOnClickListener(this);
         dragPointBtn.setOnClickListener(this);
+        elevatorBtn.setOnClickListener(this);
     }
 
     @Override
@@ -45,6 +47,9 @@ public class TestActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.btn_dragpoint:
                 gotoActivity(DragPointActivity.class);
+                break;
+            case R.id.btn_elevator:
+                gotoActivity(ElevatorActivity.class);
                 break;
             default:
                 break;

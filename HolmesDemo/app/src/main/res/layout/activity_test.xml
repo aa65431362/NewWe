@@ -22,5 +22,12 @@
             android:text="@string/dragPoint"
             android:textAllCaps="false"/>
 
+        <Button
+            android:id="@+id/btn_elevator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/elevator"
+            android:textAllCaps="false"/>
+
     </LinearLayout>
 </ScrollView>

@@ -24,8 +24,8 @@ public abstract class BaseActivity extends Activity {
             setContentView(getContentLayout());
         }
         initGui();
-        initAction();
         initData();
+        initAction();
     }
 
     /**

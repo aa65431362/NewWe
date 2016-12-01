@@ -23,6 +23,7 @@
 
         <activity android:name="activity.CircleImageViewActivity"></activity>
         <activity android:name="activity.DragPointActivity"></activity>
+        <activity android:name="activity.ElevatorActivity"></activity>
     </application>
 
 </manifest>
