@@ -63,8 +63,8 @@ public class Elevator extends LinearLayout {
 
 //	private int textHeight;
 
-    private List<ElevatorText> elevatorTextList = new ArrayList<ElevatorText>();
-    private List<ElevatorBean> itemList = new ArrayList<ElevatorBean>();
+    private List<ElevatorText> elevatorTextList = new ArrayList<>();
+    private List<ElevatorBean> itemList = new ArrayList<>();
 
     public Elevator(Context context) {
         this(context, null);
