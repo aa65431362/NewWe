@@ -12,7 +12,7 @@ import android.widget.TextView;
 import team.newwe.holmes.holmeslibrary.R;
 
 /**
- * Created by Administrator on 2016/11/30.
+ * Created by yaochen on 2016/11/30.
  */
 
 public class ElevatorText extends LinearLayout {
